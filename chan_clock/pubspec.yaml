@@ -1,0 +1,25 @@
+name: chan_clock
+description: Analog clock.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: iconfont
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
+  assets:
+    - assets/images/bird.png
+    - assets/images/leaf.png
+    - assets/images/ticker.png
